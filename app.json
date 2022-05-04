@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "FirebaseAuth",
+    "slug": "FirebaseAuth",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/background.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/background.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.pralobhlokhande.FirebaseAuth"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
